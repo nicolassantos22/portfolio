@@ -1,11 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>Portfolio Nicolas Santos</title>
 </head>
 <body>
-    <h1>Portfolio</h1>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+        </div>
+    </header>
+
+        <!--Apresentação--> 
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, eu sou</h3>
+            <h1><span>Nicolas Santos</span></h1>
+            <h3>Desenvolvedor <span>Full-Stack</span> e <span>Web Designer</span></h3>
+        
+
+        <p>Sou desenvolvedor fullstack e web designer, especializado em criar layouts intuitivos e frameworks personalizados. Com foco em design, responsividade e desempenho, ofereço soluções completas para sites e aplicações que aliam funcionalidade e estética.</p>
+        
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+        <div>
+            <a href="https://drive.google.com/file/d/1pizxHncqgZLDzfkceM397g5U7JaAM0D9/view?usp=drive_link" class="btn">Download CV</a>
+        </div>
+
+    </div>
+
+    <div class="home-img">
+        <img src="img/nicolas-santos.jpeg" alt="Profile picture">
+    </div>
+    </section>
+
+    <!--Serviços--> 
+
+    <section class="services" id="services">
+        <h2>Serviços</h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>
+                Desenvolvedor Web especializado em criar soluções digitais eficientes e bem projetadas. Combinando habilidades em design e desenvolvimento fullstack, construo sites e aplicações focados em experiência do usuário, responsividade e desempenho. Meu objetivo é transformar ideias em plataformas digitais que impulsionem resultados e se destaquem visualmente.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-curly' ></i>
+                <h3>Desenvolvedor Back-End</h3>
+                <p>
+                Desenvolvedor Back-End especializado em construir e otimizar a estrutura por trás de aplicações web. Focado em desempenho, segurança e escalabilidade, trabalho para garantir que as funcionalidades e a lógica dos sistemas sejam robustas e eficientes. Minha experiência inclui criar APIs, gerenciar bancos de dados e desenvolver soluções que suportem aplicações modernas e responsivas.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <i class="fi fi-rr-customize-computer"></i>
+                <h3>Web Designer</h3>
+                <p>
+                    Web Designer especializado em criar interfaces digitais que combinam estética e funcionalidade. Meu foco é desenvolver layouts intuitivos e atraentes, priorizando a experiência do usuário em cada detalhe. Com atenção à responsividade e ao design moderno, busco transformar conceitos em sites que se destacam e engajam.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Portfólio--> 
+
+    <section class="portfolio" id="portfolio">
+        <h2>Meus Projetos</h2>
+
+        <div class="portfolio-container">
+            
+            <div class="portfolio-box">
+                <img src="img/patch-news-portfolio.png" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>Patch News</h4>    
+                </div>
+
+                <p>
+                Durante o curso de Web Design pelo Senac, desenvolvi o projeto Patch News, um wireframe inovador para um site de notícias voltado ao público gamer. O objetivo do projeto era criar uma plataforma que atualizasse automaticamente os usuários sobre novidades e patches dos jogos mais populares. Com um design focado em usabilidade e agilidade na transmissão de informações, o Patch News busca conectar jogadores às últimas mudanças nos seus jogos favoritos de forma dinâmica e intuitiva.
+                </p>
+
+                <button class="open-modal" data-modal="modal1">Ver Mais</button>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/venda-certa-portfolio.png" alt="Portfolio 2">
+
+                <div class="portfolio-layer">
+                    <h4>Venda Certa</h4>    
+                </div>
+
+                <p>
+                No curso de Desenvolvimento Front-End pelo Senac, criei o Venda Certa, um site focado na venda de celulares modernos a preços acessíveis. O projeto foi desenvolvido com o objetivo de simplificar o processo de compra, proporcionando uma experiência prática e atrativa para os clientes. O Venda Certa destaca-se por unir design funcional e acessibilidade, atraindo usuários interessados nos últimos lançamentos do mercado de smartphones.   
+                </p>
+
+                <button class="open-modal" data-modal="modal2">Ver Mais</button>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/fenix-reborn-portfolio.png" alt="Portfolio 3">
+
+                <div class="portfolio-layer">
+                    <h4>Fenix Reborn</h4>    
+                </div>
+
+                <p>
+                Em 2024, junto com amigos de trabalho e de curso, fundei a Fenix Reborn Design e Tecnologia, uma empresa dedicada à prestação de serviços em design e desenvolvimento de sites. Nossa equipe combina experiências profissionais e acadêmicas para criar soluções personalizadas, unindo criatividade e tecnologia para atender às necessidades dos clientes e potencializar suas presenças digitais.
+                </p>
+
+                <button class="open-modal" data-modal="modal3">Ver Mais</button>
+            </div>
+
+        </div>
+
+         <!-- Modals -->
+
+            <div class="modal" id="modal1">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h4>Patch News</h4>
+                    <p>Confira mais detalhes sobre o projeto Patch News.</p>
+                    <a href="link-to-patch-news" target="_blank">Acessar o projeto</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h4>Venda Certa</h4>
+                    <p>Confira mais detalhes sobre o projeto Venda Certa.</p>
+                    <a href="link-to-venda-certa" target="_blank">Acessar o projeto</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h4>Fenix Reborn</h4>
+                    <p>Confira mais detalhes sobre a Fenix Reborn Design e Tecnologia.</p>
+                    <a href="link-to-fenix-reborn" target="_blank">Acessar o site</a>
+                </div>
+            </div>
+    </section>
+
+    <!--Contato-->
+
+    <section class="contato" id="contato">
+        <h2>Contate-Me</h2>
+
+        <form action="" method="">
+            <div class="input-box">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+
+           <div class="input-box">
+                <input type="email" placeholder="E-mail">
+                <input type="text" placeholder="Número">
+           </div>
+           
+           <textarea cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+           <a href="#" class="btn">Enviar</a>
+        </form>
+    </section>
+
+    <!--Sobre-->
+
+    <section class="sobre" id="sobre">
+        <div class="about-img">
+            <img src="img/nicolas-santos.jpeg" alt="About Me">
+        </div>
+
+        <div class="about-content">
+            <h3>Sobre mim</h3>
+            <h1>Desenvolvedor <span>Full-Stack</span> e <span>Web Designer</span></h1>
+
+            <p>
+            Sou Nicolas Santos, formado em Técnico em Informática integrado ao ensino médio e no curso de Informática para Internet, ambos pela ETEC Antonio Devisate, com especialização em Web Design e Desenvolvimento Front-End pelo Senac Marília. Atualmente, curso Análise e Desenvolvimento de Sistemas pela Universidade Paulista (UNIP). Já desenvolvi projetos acadêmicos como TCC pelo Senac e pela ETEC e atualmente atuo como freelancer pela Fenix Reborn Design e Tecnologia, na sociedade a qual sou co-fundador, criando soluções digitais inovadoras. Com uma base sólida em design e programação, estou preparado para transformar ideias em experiências digitais impactantes.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 by Nicolas Santos. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
+<script src="js/script.js"></script>
 </html>
