@@ -221,6 +221,7 @@ header {
     margin-bottom: 20px;
 }
 
+
 /* Títulos dos serviços */
 
 .services-box h3 {
@@ -259,6 +260,7 @@ header {
 }
 
 /* Estilo dos cards */
+
 .portfolio-box {
     position: relative;
     width: 300px;
@@ -565,7 +567,7 @@ footer p {
 @media (max-width: 768px) {
 
     /* Header */
-    
+
     header {
         padding: 15px 20px;
     }
