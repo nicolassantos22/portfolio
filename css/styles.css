@@ -352,14 +352,14 @@ header {
 
 /* Estilo do fundo do modal */
 .modal {
-    display: none; /* Oculta o modal por padrão */
+    display: none; 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
-    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    background: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(5px); 
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -374,11 +374,12 @@ header {
     width: 90%;
     text-align: center;
     position: relative;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    animation: fadeIn 0.3s ease; /* Animação de entrada */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+    animation: fadeIn 0.3s ease; 
 }
 
 /* Animação de entrada do modal */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -402,7 +403,7 @@ header {
 }
 
 .close-modal:hover {
-    color: #000; /* Cor mais escura ao passar o mouse */
+    color: #000; 
 }
 
 /* Estilo do título do modal */
@@ -417,6 +418,7 @@ header {
 }
 
 /* Estilo do texto do modal */
+
 .modal-content p {
     margin-top: 20px;
     font-size: 1rem;
@@ -425,6 +427,7 @@ header {
 }
 
 /* Estilo do link no modal */
+
 .modal-content a {
     display: inline-block;
     padding: 10px 20px;
@@ -576,6 +579,32 @@ textarea:focus {
     text-align: justify;
 }
 
+/* Estilo do container das instituições */
+
+.instituicoes {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 30px; 
+    gap: 10 px; 
+}
+
+/* Estilo das imagens das instituições */
+
+.instituicoes img {
+    max-width: 100px; 
+    height: auto; 
+    border-radius: 50px; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efeito de hover nas imagens */
+
+.instituicoes img:hover {
+    transform: scale(1.1); 
+    opacity: 0.9; 
+}
+
 /* Estilo do Rodapé */
 
 footer {
@@ -634,7 +663,6 @@ footer p {
         font-size: 1.5rem;
         margin: 15px 0;
     }
-
 
     /* Home */
 
@@ -716,6 +744,19 @@ footer p {
 
     .about-content p {
         text-align: center;
+    }
+
+    /* Ajustes para o container das instituições */
+
+    .instituicoes {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 10px; 
+    }
+
+    .instituicoes img {
+        max-width: 80px; 
+        margin-right: 0; 
     }
 }
 
@@ -822,6 +863,16 @@ footer p {
 
     .about-content p {
         font-size: 1rem;
+    }
+
+    /* Ajustes para o container das instituições */
+
+    .instituicoes {
+        gap: 5px; 
+    }
+
+    .instituicoes img {
+        max-width: 60px; 
     }
 
     /* Rodapé */
