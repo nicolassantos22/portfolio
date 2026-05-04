@@ -19,7 +19,9 @@ const portfolioBoxes = document.querySelectorAll('.portfolio-box');
 const closeModalButtons = document.querySelectorAll('.close-modal');
 const modals = document.querySelectorAll('.modal');
 
-portfolioBoxes.forEach(box => {
+const allBoxes = document.querySelectorAll('.portfolio-box, .games-box');
+
+allBoxes.forEach(box => {
     box.addEventListener('click', () => {
         const modalId = box.getAttribute('data-modal');
         const modal = document.getElementById(modalId);
